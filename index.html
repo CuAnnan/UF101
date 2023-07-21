@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>UF101 Helper</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="A form to help generate UF101 for use" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+</head>
+<body>
+<div class="container">
+  <h1>UF 101 Form Details:</h1>
+
+  <form method="post" id="uf101Form">
+
+    <div class="form-group row">
+      <label for="operatorName" class="col-sm-4 col-form-label">Operator Name </label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="operatorName" name="operatorName" value=""/>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="mySRSRegistrationNo" class="col-sm-4 col-form-label">MySRS Registration No. <strong>(16 digit)</strong></label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="mySRSRegistrationNo" name="mySRSRegistrationNo" value=""/>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="uASModel" class="col-sm-4 col-form-label">UAS Model </label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="uASModel" name="uASModel" value=""/>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="remotePilotsNames" class="col-sm-4 col-form-label">Remote Pilot(s) Name(s) </label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="remotePilotsNames" name="remotePilotsNames" value=""/>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="mobilePhoneNumbers" class="col-sm-4 col-form-label">Mobile Phone Numbers <strong>(Primary &amp; Alternate)</strong></label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="mobilePhoneNumbers" name="mobilePhoneNumbers" value=""/>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="controlledAirspaceLocation" class="col-sm-4 col-form-label">Controlled Airspace Location </label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="controlledAirspaceLocation" name="controlledAirspaceLocation" value=""/>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="latitudeLongitude" class="col-sm-4 col-form-label">Latitude &amp; Longitude <strong>(Degrees, Minutes &amp; Seconds)</strong></label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="latitudeLongitude" name="latitudeLongitude" value=""/>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="radiusofOperation" class="col-sm-4 col-form-label">Radius of Operation <strong>(m)</strong></label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="radiusofOperation" name="radiusofOperation" value=""/>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="descriptionofArea" class="col-sm-4 col-form-label">Description of Area <strong>(townland, landmark, etc.)</strong></label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="descriptionofArea" name="descriptionofArea" value=""/>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="maximumAltitude" class="col-sm-4 col-form-label">Maximum Altitude <strong>(AMSL)</strong></label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="maximumAltitude" name="maximumAltitude" value=""/>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="heightAboveGroundLevel" class="col-sm-4 col-form-label">Height Above Ground Level <strong>(AGL)</strong></label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="heightAboveGroundLevel" name="heightAboveGroundLevel" value=""/>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="specificAssuranceandIntegrityLevel" class="col-sm-4 col-form-label">Specific Assurance and Integrity Level <strong>(SAIL)</strong></label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="specificAssuranceandIntegrityLevel" name="specificAssuranceandIntegrityLevel" value=""/>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="vHFCapabilityReceiverOnly" class="col-sm-4 col-form-label">VHF Capability, Receiver Only <strong>(Y/N)</strong></label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="vHFCapabilityReceiverOnly" name="vHFCapabilityReceiverOnly" value=""/>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="eIdentification" class="col-sm-4 col-form-label">E-Identification <strong>(Y/N)</strong></label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="eIdentification" name="eIdentification" value=""/>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="proposedDatesTimes" class="col-sm-4 col-form-label">Proposed Date(s) &amp; Time(s) <strong>(Local)</strong></label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="proposedDatesTimes" name="proposedDatesTimes" value=""/>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="duration" class="col-sm-4 col-form-label">Duration <strong>(HH:MM)</strong></label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="duration" name="duration" value=""/>
+      </div>
+    </div>
+
+    <div class="row">
+      <div id="map" style="height:500px; border:1px solid black"></div>
+    </div>
+    <!--        <div class="row" id="test"></div>-->
+    <button type="submit" id="generateUF101" class="btn btn-primary">Generate UF101</button>
+  </form>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src='https://unpkg.com/leaflet-image@0.4.0/leaflet-image.js'></script>
+<script src="https://unpkg.com/pdf-lib@1.4.0"></script>
+<script src="https://unpkg.com/downloadjs@1.4.7"></script>
+<script>
+  let $latLng;
+  let layer;
+  let radius;
+  let circleLayer;
+  let map;
+  // page loader
+  window.addEventListener('load', ()=>{
+    $latLng = document.getElementById('latitudeLongitude');
+    $radius = document.getElementById('radiusofOperation');
+
+    const form = document.forms.namedItem('uf101Form');
+    form.addEventListener(
+            'submit',
+            (event)=>{
+              const formData = new FormData(form);
+              leafletImage(map, function(err, canvas) {
+                renderPDF(formData, canvas).then((pdf)=>{
+                  download(pdf, 'uf101.pdf', 'application/pdf');
+                }).catch((err)=>{
+                  console.log(err);
+                });
+              });
+
+              event.preventDefault();
+            }
+    );
+
+    // geolocation event handler
+      let mapOptions = {
+        center: [53.4495, -7.5030],
+        zoom: 7,
+        preferCanvas:true
+      }
+      // Creating a map object
+      map = new L.map('map', mapOptions);
+      // Creating a Layer object
+      let layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+      // Adding layer to the map
+      map.addLayer(layer);
+
+      // add the event handlers for the map
+      map.on('moveend', function(){renderMap(map);});
+      map.on('zoomend', function(){renderMap(map);});
+      map.on('click', function(evt){
+        map.panTo(evt.latlng);
+        renderMap(map);
+      });
+      // add the event handler for changing the radius
+      $radius.addEventListener('change', function(){
+        radius = parseInt($radius.value);
+        renderMap(map);
+      });
+  });
+
+  function convertToDMS(dec)
+  {
+    let deg = Math.floor(dec);
+    let rem = dec - deg;
+    let minsDec = 60 * rem;
+    let mins = Math.floor(minsDec);
+    let secsDec = minsDec - mins;
+    let secs = Math.round(secsDec * 60);
+    return `${deg}° ${mins}' ${secs}''`;
+  }
+
+  function updateLatLngInput(latlng)
+  {
+    $latLng.value=`${convertToDMS(latlng.lat)}, ${convertToDMS(latlng.lng)}`;
+  }
+
+  function renderMap(map)
+  {
+    updateLatLngInput(map.getCenter());
+    if(radius)
+    {
+      if(circleLayer)
+      {
+        map.removeLayer(circleLayer);
+      }
+      let center = map.getCenter();
+      circleLayer = L.circle(center, {radius: parseInt($radius.value)}).addTo(map);
+    }
+  }
+
+  // pdf stuff
+  async function renderPDF(formData, canvas) {
+    const {degrees, PDFDocument, rgb, StandardFonts} = PDFLib;
+    const url = './UF101.pdf';
+    const existingPdfBytes = await fetch(url).then(res => res.arrayBuffer())
+
+    const pdfDoc = await PDFDocument.load(existingPdfBytes)
+    const helveticaFont = await pdfDoc.embedFont(StandardFonts.Helvetica)
+
+    const pages = pdfDoc.getPages()
+    const firstPage = pages[0]
+    const {width, height} = firstPage.getSize();
+    let startingY = 212;
+    let startingX = 275;
+    let fontSize = 10;
+    let defaultYOffset = 14;
+
+
+
+    for(const [key, value] of formData)
+    {
+      firstPage.drawText(value, {x:startingX, y:height - startingY, size:fontSize,font:helveticaFont, color:rgb(0,0,0)});
+      // field smoothing
+      if(key === 'controlledAirspaceLocation' || key === 'latitudeLongitude')
+      {
+        startingY+= 21;
+      }
+      else if (key === 'descriptionofArea')
+      {
+        startingY += 15;
+      }
+      else if(key === 'vHFCapabilityReceiverOnly')
+      {
+        startingY += 16;
+      }
+      else if(key === 'eIdentification')
+      {
+        startingY += 16;
+      }
+      else
+      {
+        startingY += defaultYOffset;
+      }
+    }
+
+    let pdfImg = await pdfDoc.embedPng(canvas.toDataURL());
+    let scaleAmount = 1;
+    let scale = pdfImg.scale(scaleAmount);
+    let maxWidth = 535;
+    let maxHeight = 210;
+    while(scale.width > maxWidth || scale.height > maxHeight)
+    {
+      scaleAmount *= 0.99;
+      scale = pdfImg.scale(scaleAmount);
+    }
+
+    let pdfImgDims = pdfImg.scale(1);
+    firstPage.drawImage(pdfImg,
+      {
+        x:35, y:150, width:scale.width, height:scale.height
+      }
+    );
+
+    return pdfDoc.save();
+
+  }
+
+</script>
+</body>
+</html>
