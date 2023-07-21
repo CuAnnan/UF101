@@ -7,3 +7,5 @@ It is a plain HTML page with a form which it uses to populate the required field
 It performs **no** error checking on fields. You are expected to know that AMSL and AGL are in feet and that radius is in meters.
 
 It has no access to IAA geo zones so you will have to enter the controlled airspace names yourself.
+
+There is a [github pages](https://cuannan.github.io/UF101/) page set up for this project so you don't need to clone it and run it locally. You are, however, entirely welcome to do so. It is provided as-is.
