@@ -226,7 +226,7 @@
 
   // pdf stuff
   async function renderPDF(formData, canvas) {
-    const {degrees, PDFDocument, rgb, StandardFonts} = PDFLib;
+    const {PDFDocument, rgb, StandardFonts} = PDFLib;
     const url = './UF101.pdf';
     const existingPdfBytes = await fetch(url).then(res => res.arrayBuffer())
 
@@ -235,7 +235,7 @@
 
     const pages = pdfDoc.getPages()
     const firstPage = pages[0]
-    const {width, height} = firstPage.getSize();
+    const {height} = firstPage.getSize();
     let startingY = 212;
     let startingX = 275;
     let fontSize = 10;
@@ -280,7 +280,6 @@
       scale = pdfImg.scale(scaleAmount);
     }
 
-    let pdfImgDims = pdfImg.scale(1);
     firstPage.drawImage(pdfImg,
       {
         x:35, y:150, width:scale.width, height:scale.height
