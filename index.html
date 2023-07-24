@@ -187,11 +187,12 @@
   let operatorLayer;
 
   let map;
-  let mapMode = null;
   let MAP_MODES = {
     OPERATION_ZONE:'operation zone',
     OPERATOR:'operator'
   };
+  let mapMode = MAP_MODES.OPERATION_ZONE;
+
 
   function updateActive(node)
   {
@@ -211,18 +212,13 @@
     {
       let containerDiv = L.DomUtil.create('div');
 
-      let operatingAreaContainer = L.DomUtil.create('div', 'controlContainer inactive', containerDiv);
+      let operatingAreaContainer = L.DomUtil.create('div', 'controlContainer active', containerDiv);
       L.DomEvent.on(operatingAreaContainer, 'dblclick', function(evt){
         L.DomEvent.stopPropagation(evt);
       });
       L.DomEvent.on(operatingAreaContainer, 'click', function(evt){
         L.DomEvent.stopPropagation(evt);
-        if(mapMode === MAP_MODES.OPERATION_ZONE)
-        {
-          mapMode = null;
-          updateActive();
-        }
-        else
+        if(mapMode !== MAP_MODES.OPERATION_ZONE)
         {
           mapMode = MAP_MODES.OPERATION_ZONE;
           updateActive(this);
@@ -234,15 +230,10 @@
       L.DomEvent.on(operatorContainer, 'click', function(evt){
         L.DomEvent.stopPropagation(evt);
 
-        if(mapMode === MAP_MODES.OPERATOR)
+        if(mapMode !== MAP_MODES.OPERATOR)
         {
-          mapMode = null;
-          updateActive();
-        }
-        else
-        {
-          updateActive(this);
           mapMode = MAP_MODES.OPERATOR;
+          updateActive(this);
         }
       });
       let operatorMarker = L.DomUtil.create('img', 'controlImage', operatorContainer);
@@ -354,13 +345,6 @@
     let secsDec = minsDec - mins;
     let secs = Math.round(secsDec * 60);
     return `${deg}° ${mins}' ${secs}''`;
-  }
-
-
-
-  function renderMap(map)
-  {
-
   }
 
   // pdf stuff
