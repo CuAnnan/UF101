@@ -196,7 +196,7 @@
 
   function convertToDMS(dec)
   {
-    let deg = Math.floor(dec);
+    let deg = Math.trunc(dec);
     let rem = dec - deg;
     let minsDec = 60 * rem;
     let mins = Math.floor(minsDec);
@@ -207,19 +207,20 @@
 
   function updateLatLngInput(latlng)
   {
+
     $latLng.value=`${convertToDMS(latlng.lat)}, ${convertToDMS(latlng.lng)}`;
   }
 
   function renderMap(map)
   {
-    updateLatLngInput(map.getCenter());
+    let center = map.getCenter();
+    updateLatLngInput(center);
     if(radius)
     {
       if(circleLayer)
       {
         map.removeLayer(circleLayer);
       }
-      let center = map.getCenter();
       circleLayer = L.circle(center, {radius: parseInt($radius.value)}).addTo(map);
     }
   }
