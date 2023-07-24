@@ -34,8 +34,8 @@
       width:25px;
       height:25px;
       border-radius:12.5px;
-      border: 1px solid black;
-      background-color: #33f;
+      border: 2px solid #0033ff;
+      background-color: #3388ff;
       opacity: 50%;
     }
   </style>
@@ -224,7 +224,9 @@
           updateActive(this);
         }
       });
+      operatingAreaContainer.style.height="27px";
       let operatingAreaDiv = L.DomUtil.create('div', 'control circle', operatingAreaContainer);
+      operatingAreaDiv.title="Set mode to area of operation";
 
       let operatorContainer = L.DomUtil.create('div', 'controlContainer inactive', containerDiv);
       L.DomEvent.on(operatorContainer, 'click', function(evt){
@@ -238,6 +240,7 @@
       });
       let operatorMarker = L.DomUtil.create('img', 'controlImage', operatorContainer);
       operatorMarker.src='https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png';
+      operatorMarker.title="Set mode to operator";
 
 
       return containerDiv;
