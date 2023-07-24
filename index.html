@@ -197,7 +197,7 @@
   function convertToDMS(dec)
   {
     let deg = Math.trunc(dec);
-    let rem = dec - deg;
+    let rem = Math.abs(dec) - Math.abs(deg);
     let minsDec = 60 * rem;
     let mins = Math.floor(minsDec);
     let secsDec = minsDec - mins;
