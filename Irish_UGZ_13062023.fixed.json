@@ -1,0 +1,6724 @@
+{
+  "title": "Irish UASZoneVersion 2023-06-13",
+  "description": "",
+  "features": [
+    {
+      "identifier": "EI U2",
+      "country": "IRL",
+      "name": "Currency Centre",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "Access may be requested through the zone authority for Open & Specific Category operations.",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Security",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Department of Defence",
+          "service": "",
+          "email": "airspaceandobstacles@defenceforces.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.23177778,
+              53.27355556
+            ],
+            "radius": "500"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U3",
+      "country": "IRL",
+      "name": "Royal Hospital Kilmainham",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "Access may be requested through the zone authority for Specific Category operations.",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Security",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Irish Museum of Modern Art",
+          "service": "",
+          "email": "david.duff@imma.ie, seamus.magee@imma.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.30216667,
+              53.343
+            ],
+            "radius": "800"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U7",
+      "country": "IRL",
+      "name": "Casement Aerodrome",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "Access may be requested through the zone authority for Specific Category operations.",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Security",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Department of Defence",
+          "service": "",
+          "email": "airspaceandobstacles@defenceforces.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.45540614,
+              53.30299194
+            ],
+            "radius": "5000"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U12",
+      "country": "IRL",
+      "name": "Newcastle Aerodrome",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Security",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Newcastle Aerodrome",
+          "service": "",
+          "email": "info@einc.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 457.2,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.03638889,
+              53.07277778
+            ],
+            "radius": "2778"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U17",
+      "country": "IRL",
+      "name": "Custume Barracks",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Security",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Open & Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Department of Defence",
+          "service": "",
+          "email": "heliops@defenceforces.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 609.6,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -7.94777778,
+              53.42444444
+            ],
+            "radius": "3704"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U19",
+      "country": "IRL",
+      "name": "Cathal Brugha Barracks",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Security",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Open & Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Department of Defence",
+          "service": "",
+          "email": "airspaceandobstacles@defenceforces.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 167.64,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.27046944,
+              53.32793889
+            ],
+            "radius": "371"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U21",
+      "country": "IRL",
+      "name": "Weston Airport",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Weston ATC",
+          "service": "",
+          "email": "ops@westonairport.com",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.48833333,
+              53.35222222
+            ],
+            "radius": "3000"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U24",
+      "country": "IRL",
+      "name": "Dublin Control Zone (CTR)- Terrain 1",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Dublin ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.34230603,
+              53.43947814
+            ],
+            "radius": "650"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U25",
+      "country": "IRL",
+      "name": "Dublin Control Zone (CTR)- Terrain 2",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Dublin ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.33648342,
+              53.412841
+            ],
+            "radius": "1500"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U26",
+      "country": "IRL",
+      "name": "Dublin Control Zone (CTR)- Terrain 3",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Dublin ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.337846,
+              53.39054619
+            ],
+            "radius": "400"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U27",
+      "country": "IRL",
+      "name": "Dublin Control Zone (CTR)- Red Zone",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Dublin ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.26576719,
+              53.42892358
+            ],
+            "radius": "5000"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U28",
+      "country": "IRL",
+      "name": "Dublin Control Zone (CTR)- Amber Zone",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "The greater of 30M AGL or the height of the tallest obstacle within 50M. The maximum height may be increased up to 15M above the height of the obstacle at the request of the entity responsible for the obstacle. Excluding EI U3, EI U11, EI U18, EI U19, EI U20, EI U24, EI U25, EI U26, EI U27, EI U42, EI U 44, EI U48, EI U76. Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Dublin ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 29.87,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.26576719,
+              53.42892358
+            ],
+            "radius": "12100"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U31",
+      "country": "IRL",
+      "name": "Shannon Control Zone (CTR) - Red Zone",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Shannon ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.92481567,
+              52.70197642
+            ],
+            "radius": "5000"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U64",
+      "country": "IRL",
+      "name": "Shannon Control Zone (CTR) - Amber Zone",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "The greater of 30M AGL or the height of the tallest obstacle within 50M. The maximum height may be increased up to 15M above the height of the obstacle at the request of the entity responsible for the obstacle. Excluding EI U31, EI U78, EI U79, EI U80, EI U81, EI U82, EI U83, EI U84, EI U85. Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Shannon ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 29.87,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.92481567,
+              52.70197642
+            ],
+            "radius": "12000"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U32",
+      "country": "IRL",
+      "name": "Connaught Control Zone (CTR) - Red Zone",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Ireland West ATC",
+          "service": "",
+          "email": "michaelconnolly@irelandwestairport.com",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.92481567,
+              52.70197642
+            ],
+            "radius": "5000"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U63",
+      "country": "IRL",
+      "name": "Connaught Control Zone (CTR) - Amber Zone",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "The greater of 30M AGL or the height of the tallest obstacle within 50M. The maximum height may be increased up to 15M above the height of the obstacle at the request of the entity responsible for the obstacle. Excluding EI U32. Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Ireland West ATC",
+          "service": "",
+          "email": "michaelconnolly@irelandwestairport.com",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 29.87,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.92481567,
+              52.70197642
+            ],
+            "radius": "12000"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U33",
+      "country": "IRL",
+      "name": "Cork Control Zone (CTR) - Red Zone",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Cork ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.49111247,
+              51.84126867
+            ],
+            "radius": "5000"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U61",
+      "country": "IRL",
+      "name": "Cork Control Zone (CTR) - Amber Zone",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "The greater of 30M AGL or the height of the tallest obstacle within 50M. The maximum height may be increased up to 15M above the height of the obstacle at the request of the entity responsible for the obstacle. Excluding EI U33, EI U45, EI U67, EI U68. Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Cork ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 29.87,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.49111247,
+              51.84126867
+            ],
+            "radius": "12000"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U67",
+      "country": "IRL",
+      "name": "Cork Control Zone (CTR) - Terrain 1",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Cork ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.5958,
+              51.82538333
+            ],
+            "radius": "625"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U68",
+      "country": "IRL",
+      "name": "Cork Control Zone (CTR) - Terrain 2",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Cork ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.45676944,
+              51.78970556
+            ],
+            "radius": "700"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U34",
+      "country": "IRL",
+      "name": "Kerry Control Zone (CTR) - Red Zone",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Kerry ATC",
+          "service": "",
+          "email": "atc@kerryairport.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -9.774542,
+                  52.244342
+                ],
+                [
+                  -9.780975,
+                  52.233243
+                ],
+                [
+                  -9.787382,
+                  52.218405
+                ],
+                [
+                  -9.792075,
+                  52.20225199999999
+                ],
+                [
+                  -9.794569,
+                  52.18626299999999
+                ],
+                [
+                  -9.794129,
+                  52.17431599999999
+                ],
+                [
+                  -9.79169,
+                  52.158148
+                ],
+                [
+                  -9.786119,
+                  52.140641
+                ],
+                [
+                  -9.781086,
+                  52.12930500000001
+                ],
+                [
+                  -9.77209,
+                  52.11466000000001
+                ],
+                [
+                  -9.761741,
+                  52.10156
+                ],
+                [
+                  -9.745846,
+                  52.099082
+                ],
+                [
+                  -9.725281,
+                  52.101771
+                ],
+                [
+                  -9.712003,
+                  52.10088600000001
+                ],
+                [
+                  -9.646519,
+                  52.075069
+                ],
+                [
+                  -9.522875,
+                  52.067724
+                ],
+                [
+                  -9.510262,
+                  52.06994999999999
+                ],
+                [
+                  -9.500244,
+                  52.068562
+                ],
+                [
+                  -9.48664,
+                  52.063138
+                ],
+                [
+                  -9.431283,
+                  52.050735
+                ],
+                [
+                  -9.338108,
+                  52.05996
+                ],
+                [
+                  -9.308769,
+                  52.078896
+                ],
+                [
+                  -9.295919,
+                  52.08984999999999
+                ],
+                [
+                  -9.282902,
+                  52.10356
+                ],
+                [
+                  -9.273235,
+                  52.11692
+                ],
+                [
+                  -9.263834,
+                  52.130361
+                ],
+                [
+                  -9.257274,
+                  52.144872
+                ],
+                [
+                  -9.253953,
+                  52.15836899999999
+                ],
+                [
+                  -9.252006,
+                  52.174382
+                ],
+                [
+                  -9.252025,
+                  52.187142
+                ],
+                [
+                  -9.254853,
+                  52.20151300000001
+                ],
+                [
+                  -9.257419,
+                  52.21392699999999
+                ],
+                [
+                  -9.264523,
+                  52.229846
+                ],
+                [
+                  -9.272414,
+                  52.243848
+                ],
+                [
+                  -9.283158,
+                  52.256482
+                ],
+                [
+                  -9.294458,
+                  52.268804
+                ],
+                [
+                  -9.311037,
+                  52.283039
+                ],
+                [
+                  -9.324848,
+                  52.293454
+                ],
+                [
+                  -9.349749,
+                  52.308065
+                ],
+                [
+                  -9.374181,
+                  52.31958800000001
+                ],
+                [
+                  -9.392999,
+                  52.32637499999999
+                ],
+                [
+                  -9.412524,
+                  52.332615
+                ],
+                [
+                  -9.437727,
+                  52.338199
+                ],
+                [
+                  -9.469169,
+                  52.343094
+                ],
+                [
+                  -9.50463,
+                  52.346003
+                ],
+                [
+                  -9.534305,
+                  52.34658899999999
+                ],
+                [
+                  -9.558289,
+                  52.34571800000001
+                ],
+                [
+                  -9.582006,
+                  52.343456
+                ],
+                [
+                  -9.601556,
+                  52.340034
+                ],
+                [
+                  -9.634555,
+                  52.332552
+                ],
+                [
+                  -9.643833,
+                  52.243274
+                ],
+                [
+                  -9.774542,
+                  52.244342
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U62",
+      "country": "IRL",
+      "name": "Kerry Control Zone (CTR) - Amber Zone",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "The greater of 15M AGL or the height of the tallest obstacle within 50M. The maximum height may be increased up to 15M above the height of the obstacle at the request of the entity responsible for the obstacle. Excluding EI U34 & EI U57. Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Kerry ATC",
+          "service": "",
+          "email": "atc@kerryairport.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 15.24,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -9.52378464,
+              52.180878
+            ],
+            "radius": "18520"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U41",
+      "country": "IRL",
+      "name": "Newcastle Aerodrome",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Newcastle Aerodrome",
+          "service": "",
+          "email": "info@einc.iee",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 457.2,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.03638889,
+              53.07277778
+            ],
+            "radius": "2778"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U42",
+      "country": "IRL",
+      "name": "Arbour Hill Prison",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Security",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Open & Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Irish Prison Service",
+          "service": "",
+          "email": "PVMannerin@irishprisons.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 167.64,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.28810278,
+              53.35015833
+            ],
+            "radius": "800"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U43",
+      "country": "IRL",
+      "name": "Castlerea Prison",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Security",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Open & Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Irish Prison Service",
+          "service": "",
+          "email": "PVMannerin@irishprisons.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 167.64,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.48715194,
+              53.75410833
+            ],
+            "radius": "800"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U44",
+      "country": "IRL",
+      "name": "Cloverhill & Wheatfield Prison",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Security",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Open & Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Irish Prison Service",
+          "service": "",
+          "email": "PVMannerin@irishprisons.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 167.64,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.38303333,
+              53.34109167
+            ],
+            "radius": "800"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U45",
+      "country": "IRL",
+      "name": "Cork Prison",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Security",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Open & Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Irish Prison Service",
+          "service": "",
+          "email": "PVMannerin@irishprisons.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 167.64,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.45999167,
+              51.90927778
+            ],
+            "radius": "800"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U46",
+      "country": "IRL",
+      "name": "Loughan House",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Security",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Open & Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Irish Prison Service",
+          "service": "",
+          "email": "PVMannerin@irishprisons.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 167.64,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -7.91565,
+              54.28870556
+            ],
+            "radius": "800"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U47",
+      "country": "IRL",
+      "name": "Shelton Abbey",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Security",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Open & Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Irish Prison Service",
+          "service": "",
+          "email": "PVMannerin@irishprisons.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 167.64,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.19041944,
+              52.815725
+            ],
+            "radius": "800"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U48",
+      "country": "IRL",
+      "name": "IPS BSD",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Security",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Open & Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Irish Prison Service",
+          "service": "",
+          "email": "PVMannerin@irishprisons.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 167.64,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.23681944,
+              53.4069
+            ],
+            "radius": "500"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U49",
+      "country": "IRL",
+      "name": "IPS Headquarters",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Security",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Open & Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Irish Prison Service",
+          "service": "",
+          "email": "pvmannerin@irishprisons.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 167.64,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -7.77497778,
+              53.73328611
+            ],
+            "radius": "500"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U50",
+      "country": "IRL",
+      "name": "Leinster Model Flying Club 1",
+      "type": "COMMON",
+      "restriction": "CONDITIONAL",
+      "restrictionConditions": "PERMITTED/MODEL AIRCRAFT=YES",
+      "region": 0,
+      "reason": [
+        "OTHER"
+      ],
+      "otherReasonInfo": "Exemption Zone",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Model Aircraft are exempt from the restrictions of the UAS Geographical Zone within which the exemption zone resides.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Model Aeronautics Council of Ireland",
+          "service": "",
+          "email": "iaaliaison@maci.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 121.92,
+          "upperVerticalReference": "AGL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.34055556,
+              53.35638889
+            ],
+            "radius": "300"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U51",
+      "country": "IRL",
+      "name": "Balheary Model Flying Club 1",
+      "type": "COMMON",
+      "restriction": "CONDITIONAL",
+      "restrictionConditions": "PERMITTED/MODEL AIRCRAFT=YES",
+      "region": 0,
+      "reason": [
+        "OTHER"
+      ],
+      "otherReasonInfo": "Exemption Zone",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Model Aircraft are exempt from the restrictions of the UAS Geographical Zone within which the exemption zone resides.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Model Aeronautics Council of Ireland",
+          "service": "",
+          "email": "iaaliaison@maci.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 121.92,
+          "upperVerticalReference": "AGL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.23527778,
+              53.50611111
+            ],
+            "radius": "800"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U52",
+      "country": "IRL",
+      "name": "Fingal Model Flying Club 1",
+      "type": "COMMON",
+      "restriction": "CONDITIONAL",
+      "restrictionConditions": "PERMITTED/MODEL AIRCRAFT=YES",
+      "region": 0,
+      "reason": [
+        "OTHER"
+      ],
+      "otherReasonInfo": "Exemption Zone",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Model Aircraft are exempt from the restrictions of the UAS Geographical Zone within which the exemption zone resides.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Model Aeronautics Council of Ireland",
+          "service": "",
+          "email": "iaaliaison@maci.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 121.92,
+          "upperVerticalReference": "AGL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.08416667,
+              53.5375
+            ],
+            "radius": "800"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U53",
+      "country": "IRL",
+      "name": "Island Slope Rebels Club 4",
+      "type": "COMMON",
+      "restriction": "CONDITIONAL",
+      "restrictionConditions": "PERMITTED/MODEL AIRCRAFT=YES",
+      "region": 0,
+      "reason": [
+        "OTHER"
+      ],
+      "otherReasonInfo": "Exemption Zone",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Model Aircraft are exempt from the restrictions of the UAS Geographical Zone within which the exemption zone resides.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Model Aeronautics Council of Ireland",
+          "service": "",
+          "email": "iaaliaison@maci.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 121.92,
+          "upperVerticalReference": "AGL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.31833333,
+              53.225
+            ],
+            "radius": "800"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U69",
+      "country": "IRL",
+      "name": "Donegal Control Zone (CTR) - Red Zone",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "The greater of 15M AGL or the height of the tallest obstacle within 50M. The maximum height may be increased up to 15M above the height of the obstacle at the request of the entity responsible for the obstacle. Excluding EI U34 & EI U57. Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Donegal ATC",
+          "service": "",
+          "email": "sua@donegalairport.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.34099889,
+              55.04419142
+            ],
+            "radius": "5000"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U70",
+      "country": "IRL",
+      "name": "Donegal Control Zone (CTR) - Amber Zone",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "The greater of 15M AGL or the height of the tallest obstacle within 50M. The maximum heIght may be increased up to 15M above the height of the obstacle at the request of the entity responsible for the obstacle. Excluding EI U69. Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Donegal ATC",
+          "service": "",
+          "email": "sua@donegalairport.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.34099889,
+              55.04419142
+            ],
+            "radius": "12000"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U73",
+      "country": "IRL",
+      "name": "Bandon Model Flying Club 1",
+      "type": "COMMON",
+      "restriction": "CONDITIONAL",
+      "restrictionConditions": "PERMITTED/MODEL AIRCRAFT=YES",
+      "region": 0,
+      "reason": [
+        "OTHER"
+      ],
+      "otherReasonInfo": "Exemption Zone",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Model Aircraft are exempt from the restrictions of the UAS Geographical Zone within which the exemption zone resides.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Cork ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 121.92,
+          "upperVerticalReference": "AGL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.69416667,
+              51.73972222
+            ],
+            "radius": "800"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U74",
+      "country": "IRL",
+      "name": "Cork Model Aero Club 2",
+      "type": "COMMON",
+      "restriction": "CONDITIONAL",
+      "restrictionConditions": "PERMITTED/MODEL AIRCRAFT=YES",
+      "region": 0,
+      "reason": [
+        "OTHER"
+      ],
+      "otherReasonInfo": "Exemption Zone",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Model Aircraft are exempt from the restrictions of the UAS Geographical Zone within which the exemption zone resides.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Cork ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 121.92,
+          "upperVerticalReference": "AGL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.72,
+              51.78
+            ],
+            "radius": "800"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U75",
+      "country": "IRL",
+      "name": "Island Slope Rebels Club 1",
+      "type": "COMMON",
+      "restriction": "CONDITIONAL",
+      "restrictionConditions": "PERMITTED/MODEL AIRCRAFT=YES",
+      "region": 0,
+      "reason": [
+        "OTHER"
+      ],
+      "otherReasonInfo": "Exemption Zone",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Model Aircraft are exempt from the restrictions of the UAS Geographical Zone within which the exemption zone resides.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Cork ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 121.92,
+          "upperVerticalReference": "AGL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.545,
+              51.62055556
+            ],
+            "radius": "800"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U76",
+      "country": "IRL",
+      "name": "Ballyboughal Airfied",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Michael Bergin",
+          "service": "",
+          "email": "michaelbergin@live.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 182.88,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.23466667,
+              53.50491667
+            ],
+            "radius": "1000"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U77",
+      "country": "IRL",
+      "name": "Shannon Model Flying Club",
+      "type": "COMMON",
+      "restriction": "CONDITIONAL",
+      "restrictionConditions": "PERMITTED/MODEL AIRCRAFT=YES",
+      "region": 0,
+      "reason": [
+        "OTHER"
+      ],
+      "otherReasonInfo": "Exemption Zone",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Model Aircraft are exempt from the restrictions of the UAS Geographical Zone within which the exemption zone resides.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Shannon ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 60.96,
+          "upperVerticalReference": "AGL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.85472222,
+              52.69861111
+            ],
+            "radius": "300"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U78",
+      "country": "IRL",
+      "name": "Shannon Control Zone CTR - Terrain 1",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Shannon ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.74776944,
+              52.71206111
+            ],
+            "radius": "1200"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U79",
+      "country": "IRL",
+      "name": "Shannon Control Zone CTR - Terrain 2",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Shannon ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.89085556,
+              52.65750556
+            ],
+            "radius": "200"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U80",
+      "country": "IRL",
+      "name": "Shannon Control Zone CTR - Terrain 3",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Shannon ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -9.07788611,
+              52.70301111
+            ],
+            "radius": "1600"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U81",
+      "country": "IRL",
+      "name": "Shannon Control Zone CTR - Terrain 4",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Shannon ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.82947222,
+              52.70969444
+            ],
+            "radius": "1200"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U82",
+      "country": "IRL",
+      "name": "Shannon Control Zone CTR - Terrain 5",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Shannon ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -9.00011389,
+              52.71141111
+            ],
+            "radius": "800"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U83",
+      "country": "IRL",
+      "name": "Shannon Control Zone CTR - Terrain 6",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Shannon ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.85639722,
+              52.72781667
+            ],
+            "radius": "300"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U84",
+      "country": "IRL",
+      "name": "Shannon Control Zone CTR - Terrain 7",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Shannon ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.88314444,
+              52.74545556
+            ],
+            "radius": "2400"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U85",
+      "country": "IRL",
+      "name": "Shannon Control Zone CTR - Terrain 8",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Shannon ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -9.04851111,
+              52.76210833
+            ],
+            "radius": "600"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U87",
+      "country": "IRL",
+      "name": "Sligo Control Zone (CTR) - Red Zone",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Sligo ATC",
+          "service": "",
+          "email": "safetymanager@sligoairport.com",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.59920775,
+              54.28021342
+            ],
+            "radius": "5000"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U88",
+      "country": "IRL",
+      "name": "Sligo Control Zone (CTR) - Amber Zone",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "The greater of 15M AGL or the height of the tallest obstacle within 50M. The maximum heIght may be increased up to 15M above the height of the obstacle at the request of the entity responsible for the obstacle. Excluding EI U87. Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Sligo ATC",
+          "service": "",
+          "email": "safetymanager@sligoairport.com",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 15.24,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.59920775,
+              54.28021342
+            ],
+            "radius": "12000"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U89",
+      "country": "IRL",
+      "name": "Waterford Control Zone (CTR) Red Zone",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Waterford ATC",
+          "service": "",
+          "email": "sua@waterfordairport.net",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -7.08696275,
+              52.18719997
+            ],
+            "radius": "5000"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U90",
+      "country": "IRL",
+      "name": "Waterford Control Zone (CTR) Amber Zone",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "The greater of 30M AGL or the height of the tallest obstacle within 50M. The maximum height may be increased up to 15M above the height of the obstacle at the request of the entity responsible for the obstacle. Excluding EI U89, EI U91, EI U92, EI U93, EI U94, EI U95. Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Waterford ATC",
+          "service": "",
+          "email": "sua@waterfordairport.net",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 29.87,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -7.08696275,
+              52.18719997
+            ],
+            "radius": "12000"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U91",
+      "country": "IRL",
+      "name": "Waterford Control Zone CTR - Terrain 1",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Waterford ATC",
+          "service": "",
+          "email": "sua@waterfordairport.net",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -7.17937778,
+              52.18451389
+            ],
+            "radius": "3800"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U92",
+      "country": "IRL",
+      "name": "Waterford Control Zone CTR - Terrain 2",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Waterford ATC",
+          "service": "",
+          "email": "sua@waterfordairport.net",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -7.15881111,
+              52.23140278
+            ],
+            "radius": "600"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U93",
+      "country": "IRL",
+      "name": "Waterford Control Zone CTR - Terrain 3",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Waterford ATC",
+          "service": "",
+          "email": "sua@waterfordairport.net",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -7.00691111,
+              52.26571389
+            ],
+            "radius": "600"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U94",
+      "country": "IRL",
+      "name": "Waterford Control Zone CTR - Terrain 4",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Waterford ATC",
+          "service": "",
+          "email": "sua@waterfordairport.net",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -7.01653333,
+              52.21636111
+            ],
+            "radius": "1700"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U95",
+      "country": "IRL",
+      "name": "Waterford Control Zone CTR - Terrain 5",
+      "type": "COMMON",
+      "restriction": "REQ_AUTHORISATION",
+      "restrictionConditions": "",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Waterford ATC",
+          "service": "",
+          "email": "sua@waterfordairport.net",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -7.02510278,
+              52.16784722
+            ],
+            "radius": "3500"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U96",
+      "country": "IRL",
+      "name": "Roundwoood Model Flying Club 1",
+      "type": "COMMON",
+      "restriction": "CONDITIONAL",
+      "restrictionConditions": "EXEMPT/MACI MEMBER=YES",
+      "region": 0,
+      "reason": [
+        "OTHER"
+      ],
+      "otherReasonInfo": "Exemption Zone",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Within this zone, MACI members are exempt from the 'open' category requirement that unmanned aircraft do not drop any material, Reg (EU) 2019/947 Article 4, subject to the following limitations: 1. The maximum weight of any single item shall not exceed 100g. 2. The dropzone shall be secured from any uninvolved persons. 3. An observer shall monitor the dropzone.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Model Aeronautics Council of Ireland",
+          "service": "",
+          "email": "iaaliaison@maci.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 121.92,
+          "upperVerticalReference": "AGL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.23138889,
+              53.07777778
+            ],
+            "radius": "800"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U1",
+      "country": "IRL",
+      "name": "EI D1",
+      "type": "COMMON",
+      "restriction": "REQ_AUHTORISATION",
+      "restrictionConditions": "Access may be requested through the zone authority for Open & Specific Category operations.",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Sensitive",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Open & Specific Category operations. Allow at least three working days.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Defence Forces Ireland",
+          "service": "",
+          "email": "airspaceandobstacles@defenceforces.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 12192,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -6.314166999999999,
+                  53.640556
+                ],
+                [
+                  -6.3125,
+                  53.634722
+                ],
+                [
+                  -6.31,
+                  53.629167
+                ],
+                [
+                  -6.306389,
+                  53.623889
+                ],
+                [
+                  -6.301667,
+                  53.618889
+                ],
+                [
+                  -6.295832999999999,
+                  53.61416700000001
+                ],
+                [
+                  -6.289444,
+                  53.609722
+                ],
+                [
+                  -6.282221999999999,
+                  53.605833
+                ],
+                [
+                  -6.274167,
+                  53.602778
+                ],
+                [
+                  -6.265556,
+                  53.60000000000001
+                ],
+                [
+                  -6.256667,
+                  53.597778
+                ],
+                [
+                  -6.247222,
+                  53.596389
+                ],
+                [
+                  -6.2375,
+                  53.595556
+                ],
+                [
+                  -6.227777999999999,
+                  53.595278
+                ],
+                [
+                  -6.218056,
+                  53.595833
+                ],
+                [
+                  -6.208610999999999,
+                  53.596944
+                ],
+                [
+                  -6.199444,
+                  53.598611
+                ],
+                [
+                  -6.190556,
+                  53.601111
+                ],
+                [
+                  -6.182222,
+                  53.603889
+                ],
+                [
+                  -6.174444,
+                  53.6075
+                ],
+                [
+                  -6.1675,
+                  53.611667
+                ],
+                [
+                  -6.161389,
+                  53.61611099999999
+                ],
+                [
+                  -6.156111,
+                  53.620833
+                ],
+                [
+                  -6.151944,
+                  53.62611099999999
+                ],
+                [
+                  -6.149167,
+                  53.631667
+                ],
+                [
+                  -5.961111,
+                  53.59916699999999
+                ],
+                [
+                  -5.959722,
+                  53.600278
+                ],
+                [
+                  -5.955555999999999,
+                  53.610556
+                ],
+                [
+                  -5.952222,
+                  53.620833
+                ],
+                [
+                  -5.950278,
+                  53.631389
+                ],
+                [
+                  -5.949167,
+                  53.641944
+                ],
+                [
+                  -5.949443999999999,
+                  53.6525
+                ],
+                [
+                  -5.950556,
+                  53.662778
+                ],
+                [
+                  -5.953056,
+                  53.673333
+                ],
+                [
+                  -5.956667000000001,
+                  53.68361099999999
+                ],
+                [
+                  -5.961111,
+                  53.693889
+                ],
+                [
+                  -5.966944,
+                  53.703889
+                ],
+                [
+                  -5.973611,
+                  53.713611
+                ],
+                [
+                  -5.981388999999999,
+                  53.723056
+                ],
+                [
+                  -5.990278,
+                  53.73222200000001
+                ],
+                [
+                  -6,
+                  53.740833
+                ],
+                [
+                  -6.010555999999999,
+                  53.749444
+                ],
+                [
+                  -6.022221999999999,
+                  53.7575
+                ],
+                [
+                  -6.034444000000001,
+                  53.765
+                ],
+                [
+                  -6.047778,
+                  53.771944
+                ],
+                [
+                  -6.061666999999999,
+                  53.778611
+                ],
+                [
+                  -6.076111,
+                  53.784722
+                ],
+                [
+                  -6.091389,
+                  53.790278
+                ],
+                [
+                  -6.107222000000001,
+                  53.795
+                ],
+                [
+                  -6.123333,
+                  53.79944399999999
+                ],
+                [
+                  -6.140278,
+                  53.80305599999999
+                ],
+                [
+                  -6.157222,
+                  53.80611099999999
+                ],
+                [
+                  -6.208055999999999,
+                  53.693611
+                ],
+                [
+                  -6.215,
+                  53.694444
+                ],
+                [
+                  -6.224722,
+                  53.695278
+                ],
+                [
+                  -6.234444,
+                  53.695278
+                ],
+                [
+                  -6.244167,
+                  53.694722
+                ],
+                [
+                  -6.253610999999999,
+                  53.693333
+                ],
+                [
+                  -6.262778,
+                  53.691389
+                ],
+                [
+                  -6.271389,
+                  53.68888900000001
+                ],
+                [
+                  -6.279722,
+                  53.685833
+                ],
+                [
+                  -6.287222,
+                  53.682222
+                ],
+                [
+                  -6.293889,
+                  53.67805599999999
+                ],
+                [
+                  -6.299999999999999,
+                  53.673333
+                ],
+                [
+                  -6.305,
+                  53.668333
+                ],
+                [
+                  -6.308889,
+                  53.663056
+                ],
+                [
+                  -6.311944,
+                  53.6575
+                ],
+                [
+                  -6.313610999999999,
+                  53.651944
+                ],
+                [
+                  -6.314444,
+                  53.646111
+                ],
+                [
+                  -6.314166999999999,
+                  53.640556
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U5",
+      "country": "IRL",
+      "name": "EI D5",
+      "type": "COMMON",
+      "restriction": "REQ_AUHTORISATION",
+      "restrictionConditions": "Access may be requested through the zone authority for Open & Specific Category operations.",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Sensitive",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Open & Specific Category operations. Allow at least three working days.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Defence Forces Ireland",
+          "service": "",
+          "email": "airspaceandobstacles@defenceforces.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 12192,
+          "upperVerticalReference": "AGL",
+          "horizontalProjection": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -6.581666999999999,
+                  52.950278
+                ],
+                [
+                  -6.41,
+                  52.918889
+                ],
+                [
+                  -6.405278000000001,
+                  53.04666699999999
+                ],
+                [
+                  -6.534167,
+                  53.02333299999999
+                ],
+                [
+                  -6.561111000000001,
+                  53.0075
+                ],
+                [
+                  -6.581666999999999,
+                  52.950278
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U6",
+      "country": "IRL",
+      "name": "EI D6",
+      "type": "COMMON",
+      "restriction": "REQ_AUHTORISATION",
+      "restrictionConditions": "Access may be requested through the zone authority for Open & Specific Category operations.",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Sensitive",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Open & Specific Category operations. Allow at least three working days.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Defence Forces Ireland",
+          "service": "",
+          "email": "airspaceandobstacles@defenceforces.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 2438.4,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -8.251389,
+                  52.23333299999999
+                ],
+                [
+                  -8.238889,
+                  52.215278
+                ],
+                [
+                  -8.194444,
+                  52.218056
+                ],
+                [
+                  -8.2,
+                  52.241667
+                ],
+                [
+                  -8.251389,
+                  52.23333299999999
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U13",
+      "country": "IRL",
+      "name": "EI D13",
+      "type": "COMMON",
+      "restriction": "REQ_AUHTORISATION",
+      "restrictionConditions": "Access may be requested through the zone authority for Open & Specific Category operations. Excludes High Seas.",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Sensitive",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Open & Specific Category operations. Allow at least three working days. Excludes High Seas (Waters greater than 12nm from coastline)",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Defence Forces Ireland",
+          "service": "",
+          "email": "airspaceandobstacles@defenceforces.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 13716,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -8.951667,
+                  51.528333
+                ],
+                [
+                  -8.813333,
+                  51.293333
+                ],
+                [
+                  -8.576667,
+                  51.33666699999999
+                ],
+                [
+                  -8.71,
+                  51.56999999999999
+                ],
+                [
+                  -8.951667,
+                  51.528333
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U14",
+      "country": "IRL",
+      "name": "EI D14",
+      "type": "COMMON",
+      "restriction": "REQ_AUHTORISATION",
+      "restrictionConditions": "Access may be requested through the zone authority for Open & Specific Category operations. Excludes High Seas.",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Sensitive",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Open & Specific Category operations. Allow at least three working days. Excludes High Seas (Waters greater than 12nm from coastline)",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Defence Forces Ireland",
+          "service": "",
+          "email": "airspaceandobstacles@defenceforces.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 13716,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -10.95,
+                  51.554722
+                ],
+                [
+                  -10.711944,
+                  51.377222
+                ],
+                [
+                  -10.300278,
+                  51.59166700000001
+                ],
+                [
+                  -10.540833,
+                  51.768056
+                ],
+                [
+                  -10.95,
+                  51.554722
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U8",
+      "country": "IRL",
+      "name": "EI P8",
+      "type": "COMMON",
+      "restriction": "REQ_AUHTORISATION",
+      "restrictionConditions": "Access may be requested through the zone authority for Open & Specific Category operations.",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Sensitive",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Open & Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Irish Prison Service",
+          "service": "",
+          "email": "pvmannerin@irishprisons.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -7.30000278,
+              53.02502778
+            ],
+            "radius": "3704"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U9",
+      "country": "IRL",
+      "name": "EI P9",
+      "type": "COMMON",
+      "restriction": "REQ_AUHTORISATION",
+      "restrictionConditions": "Access may be requested through the zone authority for Open & Specific Category operations.",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Sensitive",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Open & Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Irish Prison Service",
+          "service": "",
+          "email": "pvmannerin@irishprisons.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 609.6,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.61638889,
+              52.65833333
+            ],
+            "radius": "1852"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U10",
+      "country": "IRL",
+      "name": "EI P10",
+      "type": "COMMON",
+      "restriction": "REQ_AUHTORISATION",
+      "restrictionConditions": "Access may be requested through the zone authority for Open & Specific Category operations. Allow at least three working days.",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Sensitive",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Open & Specific Category operations. Allow at least three working days.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Defence Forces Ireland",
+          "service": "",
+          "email": "dftc.ops@defenceforces.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -6.879163,
+                  53.147508
+                ],
+                [
+                  -6.799717000000001,
+                  53.13029300000001
+                ],
+                [
+                  -6.804429999999999,
+                  53.150011
+                ],
+                [
+                  -6.824167,
+                  53.161959
+                ],
+                [
+                  -6.879719,
+                  53.154445
+                ],
+                [
+                  -6.879163,
+                  53.147508
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U11",
+      "country": "IRL",
+      "name": "EI P11",
+      "type": "COMMON",
+      "restriction": "REQ_AUHTORISATION",
+      "restrictionConditions": "Request access through the zone authority.",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Sensitive",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Request access through the zone authority.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Department of Justice",
+          "service": "",
+          "email": "info@justice.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 304.8,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.31685278,
+              53.35945833
+            ],
+            "radius": "1852"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U18",
+      "country": "IRL",
+      "name": "EI P18",
+      "type": "COMMON",
+      "restriction": "REQ_AUHTORISATION",
+      "restrictionConditions": "Access may be requested through the zone authority for Open & Specific Category operations.",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Sensitive",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Open & Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Irish Prison Service",
+          "service": "",
+          "email": "pvmannerin@irishprisons.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 167.64,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.26726111,
+              53.36221944
+            ],
+            "radius": "926"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI U15",
+      "country": "IRL",
+      "name": "EI R15",
+      "type": "COMMON",
+      "restriction": "REQ_AUHTORISATION",
+      "restrictionConditions": "Access may be requested through the zone authority for Specific Category operations. Allow at least three working days. UAS which has a mass of less than 25 kilograms, without fuel but including any articles or equipment installed in or attached to the aircraft and including cargo at the commencement of its flight, may be operated at a height above the surface of not more than 8 metres (25 ft) excluding EI U23, EI U4, EI U7, EI U21.",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Sensitive",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations. Allow at least three working days. UAS which has a mass of less than 25 kilograms, without fuel but including any articles or equipment installed in or attached to the aircraft and including cargo at the commencement of its flight, may be operated at a height above the surface of not more than 8 metres (25 ft) excluding EI U23, EI U4, EI U7, EI U21.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Department of Defence",
+          "service": "",
+          "email": "airspaceandobstacles@defenceforces.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 914.4,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -6.358333,
+                  53.333333
+                ],
+                [
+                  -6.515556000000001,
+                  53.34277800000001
+                ],
+                [
+                  -6.710278000000001,
+                  53.367222
+                ],
+                [
+                  -6.618610999999999,
+                  53.243611
+                ],
+                [
+                  -6.358333,
+                  53.244167
+                ],
+                [
+                  -6.358333,
+                  53.333333
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI R22",
+      "country": "IRL",
+      "name": "EI U22",
+      "type": "COMMON",
+      "restriction": "REQ_AUHTORISATION",
+      "restrictionConditions": "Access may be requested through the zone authority for Specific Category operations. Allow at least three working days.",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Sensitive",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations. Allow at least three working days.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Department of Defence",
+          "service": "",
+          "email": "airspaceandobstacles@defenceforces.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 304.8,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.24288611,
+              54.49134444
+            ],
+            "radius": "1852"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "EI R23",
+      "country": "IRL",
+      "name": "EI U23",
+      "type": "COMMON",
+      "restriction": "REQ_AUHTORISATION",
+      "restrictionConditions": "Access may be requested through the zone authority for Specific Category operations. Allow at least three working days.",
+      "region": 0,
+      "reason": [
+        "SENSITIVE"
+      ],
+      "otherReasonInfo": "Sensitive",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Access may be requested through the zone authority for Specific Category operations. Allow at least three working days.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Department of Defence",
+          "service": "",
+          "email": "airspaceandobstacles@defenceforces.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 609.6,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -6.44776944,
+              53.30000556
+            ],
+            "radius": "1852"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "Dublin Airport - Green Zone",
+      "country": "IRL",
+      "name": "EI U29",
+      "type": "COMMON",
+      "restriction": "REQ_AUHTORISATION",
+      "restrictionConditions": "Excluding EI U2, EI U3, EI U4, EI U7, EI U11, EI U15, EI U18, EI U19, EI U20, EI U21, EI U24, EI U25, EI U26, EI U27, EI U28, EI U42, EI U 44, EI U48, EI U76. Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "Excluding EI U2, EI U3, EI U4, EI U7, EI U11, EI U15, EI U18, EI U19, EI U20, EI U21, EI U24, EI U25, EI U26, EI U27, EI U28, EI U42, EI U 44, EI U48, EI U76. Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Dublin ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 91.44,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -6.531111,
+                  53.432778
+                ],
+                [
+                  -6.529722,
+                  53.422222
+                ],
+                [
+                  -6.5275,
+                  53.411944
+                ],
+                [
+                  -6.523889,
+                  53.401389
+                ],
+                [
+                  -6.519444,
+                  53.391389
+                ],
+                [
+                  -6.513610999999999,
+                  53.381389
+                ],
+                [
+                  -6.358333,
+                  53.333333
+                ],
+                [
+                  -6.358333,
+                  53.1975
+                ],
+                [
+                  -6.3375,
+                  53.194444
+                ],
+                [
+                  -6.316111000000001,
+                  53.192222
+                ],
+                [
+                  -6.294722,
+                  53.190556
+                ],
+                [
+                  -6.273333000000001,
+                  53.18972200000001
+                ],
+                [
+                  -6.251944,
+                  53.18944399999999
+                ],
+                [
+                  -6.230278,
+                  53.18972200000001
+                ],
+                [
+                  -6.208889,
+                  53.190556
+                ],
+                [
+                  -6.187500000000001,
+                  53.192222
+                ],
+                [
+                  -6.166389,
+                  53.194722
+                ],
+                [
+                  -6.145278000000001,
+                  53.1975
+                ],
+                [
+                  -6.124722,
+                  53.201111
+                ],
+                [
+                  -6.104444,
+                  53.20555600000001
+                ],
+                [
+                  -6.084444,
+                  53.210278
+                ],
+                [
+                  -6.065,
+                  53.215833
+                ],
+                [
+                  -6.045833,
+                  53.221944
+                ],
+                [
+                  -6.0275,
+                  53.228333
+                ],
+                [
+                  -6.009444,
+                  53.235556
+                ],
+                [
+                  -5.992222000000001,
+                  53.243333
+                ],
+                [
+                  -5.975556,
+                  53.251667
+                ],
+                [
+                  -5.959722,
+                  53.260278
+                ],
+                [
+                  -5.944721999999999,
+                  53.269722
+                ],
+                [
+                  -5.930556,
+                  53.279444
+                ],
+                [
+                  -5.916944,
+                  53.289444
+                ],
+                [
+                  -5.904444000000001,
+                  53.3
+                ],
+                [
+                  -5.893056,
+                  53.310833
+                ],
+                [
+                  -5.882222,
+                  53.321944
+                ],
+                [
+                  -5.8725,
+                  53.333611
+                ],
+                [
+                  -5.863889,
+                  53.345278
+                ],
+                [
+                  -5.856389,
+                  53.35750000000001
+                ],
+                [
+                  -5.849722,
+                  53.36972200000001
+                ],
+                [
+                  -5.844167,
+                  53.382222
+                ],
+                [
+                  -5.839722000000001,
+                  53.394722
+                ],
+                [
+                  -5.836389,
+                  53.40750000000001
+                ],
+                [
+                  -5.834167,
+                  53.420278
+                ],
+                [
+                  -5.833056,
+                  53.433333
+                ],
+                [
+                  -5.833056,
+                  53.44611099999999
+                ],
+                [
+                  -5.834167,
+                  53.459167
+                ],
+                [
+                  -5.836111,
+                  53.471944
+                ],
+                [
+                  -5.839444,
+                  53.484722
+                ],
+                [
+                  -5.843888999999999,
+                  53.497222
+                ],
+                [
+                  -5.849444,
+                  53.509722
+                ],
+                [
+                  -5.856110999999999,
+                  53.521944
+                ],
+                [
+                  -5.863889,
+                  53.534167
+                ],
+                [
+                  -5.8725,
+                  53.545833
+                ],
+                [
+                  -5.882222,
+                  53.5575
+                ],
+                [
+                  -5.893056,
+                  53.568611
+                ],
+                [
+                  -5.905556,
+                  53.579167
+                ],
+                [
+                  -6.403056,
+                  53.579167
+                ],
+                [
+                  -6.409167,
+                  53.576667
+                ],
+                [
+                  -6.423333,
+                  53.570556
+                ],
+                [
+                  -6.437222,
+                  53.56388900000001
+                ],
+                [
+                  -6.45,
+                  53.556667
+                ],
+                [
+                  -6.462222,
+                  53.548889
+                ],
+                [
+                  -6.473333000000001,
+                  53.540833
+                ],
+                [
+                  -6.483611,
+                  53.53222199999999
+                ],
+                [
+                  -6.493056000000001,
+                  53.52333300000001
+                ],
+                [
+                  -6.501667,
+                  53.514167
+                ],
+                [
+                  -6.508888999999999,
+                  53.504722
+                ],
+                [
+                  -6.515556000000001,
+                  53.49472200000001
+                ],
+                [
+                  -6.520833,
+                  53.484722
+                ],
+                [
+                  -6.525,
+                  53.474444
+                ],
+                [
+                  -6.528333,
+                  53.464167
+                ],
+                [
+                  -6.530278,
+                  53.453889
+                ],
+                [
+                  -6.531388999999999,
+                  53.443333
+                ],
+                [
+                  -6.268734000000001,
+                  53.53765400000001
+                ],
+                [
+                  -6.284668000000001,
+                  53.537085
+                ],
+                [
+                  -6.300455999999999,
+                  53.53569
+                ],
+                [
+                  -6.315978,
+                  53.53348100000001
+                ],
+                [
+                  -6.331114999999999,
+                  53.530475
+                ],
+                [
+                  -6.345752,
+                  53.526694
+                ],
+                [
+                  -6.359775,
+                  53.522167
+                ],
+                [
+                  -6.373078,
+                  53.516929
+                ],
+                [
+                  -6.385558999999999,
+                  53.511021
+                ],
+                [
+                  -6.397123,
+                  53.50448699999999
+                ],
+                [
+                  -6.407682,
+                  53.497378
+                ],
+                [
+                  -6.417156,
+                  53.489748
+                ],
+                [
+                  -6.425472,
+                  53.481654
+                ],
+                [
+                  -6.432569000000001,
+                  53.47316
+                ],
+                [
+                  -6.438392,
+                  53.46433
+                ],
+                [
+                  -6.442897,
+                  53.45523099999999
+                ],
+                [
+                  -6.446052,
+                  53.44593199999999
+                ],
+                [
+                  -6.447834,
+                  53.436506
+                ],
+                [
+                  -6.448229,
+                  53.427022
+                ],
+                [
+                  -6.447235,
+                  53.417555
+                ],
+                [
+                  -6.444862000000001,
+                  53.408175
+                ],
+                [
+                  -6.441127,
+                  53.398953
+                ],
+                [
+                  -6.43606,
+                  53.389961
+                ],
+                [
+                  -6.429701,
+                  53.381266
+                ],
+                [
+                  -6.422098,
+                  53.372934
+                ],
+                [
+                  -6.413311,
+                  53.36502899999999
+                ],
+                [
+                  -6.403405,
+                  53.35761
+                ],
+                [
+                  -6.392457,
+                  53.35073299999999
+                ],
+                [
+                  -6.38055,
+                  53.344451
+                ],
+                [
+                  -6.367774,
+                  53.33881100000001
+                ],
+                [
+                  -6.354226999999999,
+                  53.333856
+                ],
+                [
+                  -6.340011,
+                  53.329623
+                ],
+                [
+                  -6.325234,
+                  53.32614400000001
+                ],
+                [
+                  -6.310008,
+                  53.323446
+                ],
+                [
+                  -6.294447,
+                  53.321549
+                ],
+                [
+                  -6.278670000000001,
+                  53.32046600000001
+                ],
+                [
+                  -6.262795000000001,
+                  53.320208
+                ],
+                [
+                  -6.246942999999999,
+                  53.320774
+                ],
+                [
+                  -6.231232,
+                  53.322162
+                ],
+                [
+                  -6.215782999999999,
+                  53.32436
+                ],
+                [
+                  -6.200711,
+                  53.32735300000001
+                ],
+                [
+                  -6.18613,
+                  53.33111599999999
+                ],
+                [
+                  -6.172152,
+                  53.335623
+                ],
+                [
+                  -6.158881,
+                  53.340839
+                ],
+                [
+                  -6.146418999999999,
+                  53.346724
+                ],
+                [
+                  -6.13486,
+                  53.353233
+                ],
+                [
+                  -6.124291000000001,
+                  53.360319
+                ],
+                [
+                  -6.114794,
+                  53.367926
+                ],
+                [
+                  -6.106442,
+                  53.375998
+                ],
+                [
+                  -6.099297,
+                  53.384473
+                ],
+                [
+                  -6.093415,
+                  53.393287
+                ],
+                [
+                  -6.088842,
+                  53.402373
+                ],
+                [
+                  -6.085612,
+                  53.41166200000001
+                ],
+                [
+                  -6.083752,
+                  53.421083
+                ],
+                [
+                  -6.083276,
+                  53.43056499999999
+                ],
+                [
+                  -6.08419,
+                  53.440035
+                ],
+                [
+                  -6.086486,
+                  53.449422
+                ],
+                [
+                  -6.090148,
+                  53.458655
+                ],
+                [
+                  -6.09515,
+                  53.467661
+                ],
+                [
+                  -6.101454,
+                  53.476374
+                ],
+                [
+                  -6.109013,
+                  53.484726
+                ],
+                [
+                  -6.117769,
+                  53.492653
+                ],
+                [
+                  -6.127657,
+                  53.500096
+                ],
+                [
+                  -6.138601,
+                  53.506997
+                ],
+                [
+                  -6.150518,
+                  53.513302
+                ],
+                [
+                  -6.163318,
+                  53.51896500000001
+                ],
+                [
+                  -6.176902,
+                  53.52394199999999
+                ],
+                [
+                  -6.191165999999999,
+                  53.528194
+                ],
+                [
+                  -6.206003,
+                  53.531689
+                ],
+                [
+                  -6.221298,
+                  53.5344
+                ],
+                [
+                  -6.236933,
+                  53.536307
+                ],
+                [
+                  -6.252790000000001,
+                  53.537394
+                ],
+                [
+                  -6.083955,
+                  53.54469
+                ],
+                [
+                  -6.085009999999999,
+                  53.54467300000001
+                ],
+                [
+                  -6.086058,
+                  53.544602
+                ],
+                [
+                  -6.087092,
+                  53.544477
+                ],
+                [
+                  -6.088102999999999,
+                  53.544299
+                ],
+                [
+                  -6.089085,
+                  53.544069
+                ],
+                [
+                  -6.090029,
+                  53.543789
+                ],
+                [
+                  -6.090928,
+                  53.54346100000001
+                ],
+                [
+                  -6.091776,
+                  53.543088
+                ],
+                [
+                  -6.092565999999999,
+                  53.542673
+                ],
+                [
+                  -6.093292000000001,
+                  53.542218
+                ],
+                [
+                  -6.093949,
+                  53.541727
+                ],
+                [
+                  -6.094531,
+                  53.541204
+                ],
+                [
+                  -6.095033999999999,
+                  53.54065299999999
+                ],
+                [
+                  -6.095454000000001,
+                  53.540078
+                ],
+                [
+                  -6.095789,
+                  53.539484
+                ],
+                [
+                  -6.096035,
+                  53.538874
+                ],
+                [
+                  -6.09619,
+                  53.538254
+                ],
+                [
+                  -6.096254,
+                  53.537628
+                ],
+                [
+                  -6.096226,
+                  53.537002
+                ],
+                [
+                  -6.096107,
+                  53.536379
+                ],
+                [
+                  -6.095896,
+                  53.535764
+                ],
+                [
+                  -6.095596,
+                  53.535163
+                ],
+                [
+                  -6.095209,
+                  53.53458
+                ],
+                [
+                  -6.094738,
+                  53.53401899999999
+                ],
+                [
+                  -6.094187,
+                  53.533485
+                ],
+                [
+                  -6.093559,
+                  53.532981
+                ],
+                [
+                  -6.092860000000001,
+                  53.532512
+                ],
+                [
+                  -6.092095,
+                  53.53208000000001
+                ],
+                [
+                  -6.091268999999999,
+                  53.53169
+                ],
+                [
+                  -6.090390000000001,
+                  53.531344
+                ],
+                [
+                  -6.089463,
+                  53.531045
+                ],
+                [
+                  -6.088495,
+                  53.530795
+                ],
+                [
+                  -6.087495,
+                  53.530596
+                ],
+                [
+                  -6.086469,
+                  53.53045
+                ],
+                [
+                  -6.085426,
+                  53.530358
+                ],
+                [
+                  -6.084374,
+                  53.530319
+                ],
+                [
+                  -6.083319,
+                  53.530336
+                ],
+                [
+                  -6.082271,
+                  53.530407
+                ],
+                [
+                  -6.081238,
+                  53.530532
+                ],
+                [
+                  -6.080227000000001,
+                  53.53071
+                ],
+                [
+                  -6.079245,
+                  53.53094
+                ],
+                [
+                  -6.078301,
+                  53.53122
+                ],
+                [
+                  -6.077402,
+                  53.53154700000001
+                ],
+                [
+                  -6.076553999999999,
+                  53.53191999999999
+                ],
+                [
+                  -6.075764000000001,
+                  53.532336
+                ],
+                [
+                  -6.075037999999999,
+                  53.53279
+                ],
+                [
+                  -6.074382,
+                  53.533281
+                ],
+                [
+                  -6.0738,
+                  53.533804
+                ],
+                [
+                  -6.073296000000001,
+                  53.534355
+                ],
+                [
+                  -6.072876000000001,
+                  53.53493
+                ],
+                [
+                  -6.072541,
+                  53.535524
+                ],
+                [
+                  -6.072295,
+                  53.536134
+                ],
+                [
+                  -6.072139,
+                  53.536754
+                ],
+                [
+                  -6.072074,
+                  53.53738
+                ],
+                [
+                  -6.072101999999999,
+                  53.538006
+                ],
+                [
+                  -6.072221,
+                  53.53862900000001
+                ],
+                [
+                  -6.072432000000001,
+                  53.539243
+                ],
+                [
+                  -6.072731,
+                  53.539845
+                ],
+                [
+                  -6.073118,
+                  53.54042800000001
+                ],
+                [
+                  -6.073589,
+                  53.54098900000001
+                ],
+                [
+                  -6.074139999999999,
+                  53.541523
+                ],
+                [
+                  -6.074766999999999,
+                  53.542027
+                ],
+                [
+                  -6.075466,
+                  53.542497
+                ],
+                [
+                  -6.076232000000001,
+                  53.542928
+                ],
+                [
+                  -6.077057,
+                  53.543319
+                ],
+                [
+                  -6.077937,
+                  53.543665
+                ],
+                [
+                  -6.078865,
+                  53.54396400000001
+                ],
+                [
+                  -6.079831999999999,
+                  53.544214
+                ],
+                [
+                  -6.080833,
+                  53.544413
+                ],
+                [
+                  -6.081859,
+                  53.544559
+                ],
+                [
+                  -6.082902000000001,
+                  53.544651
+                ],
+                [
+                  -6.229051999999999,
+                  53.277746
+                ],
+                [
+                  -6.229672,
+                  53.277872
+                ],
+                [
+                  -6.230308,
+                  53.27796500000001
+                ],
+                [
+                  -6.230956,
+                  53.27802500000001
+                ],
+                [
+                  -6.23161,
+                  53.278051
+                ],
+                [
+                  -6.232265,
+                  53.278042
+                ],
+                [
+                  -6.232917,
+                  53.27799999999999
+                ],
+                [
+                  -6.233559999999999,
+                  53.277924
+                ],
+                [
+                  -6.234189,
+                  53.277814
+                ],
+                [
+                  -6.234799999999999,
+                  53.277672
+                ],
+                [
+                  -6.235388000000001,
+                  53.277499
+                ],
+                [
+                  -6.235948,
+                  53.277296
+                ],
+                [
+                  -6.236477,
+                  53.277065
+                ],
+                [
+                  -6.236970000000001,
+                  53.276806
+                ],
+                [
+                  -6.237423,
+                  53.276523
+                ],
+                [
+                  -6.237834,
+                  53.276218
+                ],
+                [
+                  -6.238198,
+                  53.275892
+                ],
+                [
+                  -6.238514,
+                  53.275549
+                ],
+                [
+                  -6.238778,
+                  53.27518999999999
+                ],
+                [
+                  -6.238989,
+                  53.27481899999999
+                ],
+                [
+                  -6.239145,
+                  53.27443800000001
+                ],
+                [
+                  -6.239245,
+                  53.274051
+                ],
+                [
+                  -6.239288,
+                  53.27366000000001
+                ],
+                [
+                  -6.239274,
+                  53.273268
+                ],
+                [
+                  -6.239203000000001,
+                  53.272879
+                ],
+                [
+                  -6.239075,
+                  53.272494
+                ],
+                [
+                  -6.238892,
+                  53.272118
+                ],
+                [
+                  -6.238655,
+                  53.271753
+                ],
+                [
+                  -6.238365,
+                  53.271401
+                ],
+                [
+                  -6.238025,
+                  53.27106599999999
+                ],
+                [
+                  -6.237638,
+                  53.27075
+                ],
+                [
+                  -6.237206,
+                  53.270455
+                ],
+                [
+                  -6.236733000000001,
+                  53.270184
+                ],
+                [
+                  -6.236222000000001,
+                  53.269939
+                ],
+                [
+                  -6.235678,
+                  53.269721
+                ],
+                [
+                  -6.235103,
+                  53.269532
+                ],
+                [
+                  -6.234504,
+                  53.26937399999999
+                ],
+                [
+                  -6.233883,
+                  53.269248
+                ],
+                [
+                  -6.233247,
+                  53.269155
+                ],
+                [
+                  -6.232599,
+                  53.269095
+                ],
+                [
+                  -6.231944999999999,
+                  53.269069
+                ],
+                [
+                  -6.23129,
+                  53.26907800000001
+                ],
+                [
+                  -6.230639,
+                  53.26912
+                ],
+                [
+                  -6.229996000000001,
+                  53.26919600000001
+                ],
+                [
+                  -6.229367,
+                  53.26930600000001
+                ],
+                [
+                  -6.228756000000001,
+                  53.26944799999999
+                ],
+                [
+                  -6.228168,
+                  53.269621
+                ],
+                [
+                  -6.227608,
+                  53.269824
+                ],
+                [
+                  -6.227079,
+                  53.270055
+                ],
+                [
+                  -6.226587,
+                  53.27031400000001
+                ],
+                [
+                  -6.226133,
+                  53.270597
+                ],
+                [
+                  -6.225723,
+                  53.27090200000001
+                ],
+                [
+                  -6.225358,
+                  53.271228
+                ],
+                [
+                  -6.225043000000001,
+                  53.271571
+                ],
+                [
+                  -6.224779,
+                  53.27193
+                ],
+                [
+                  -6.224568000000001,
+                  53.272301
+                ],
+                [
+                  -6.224412,
+                  53.272681
+                ],
+                [
+                  -6.224311,
+                  53.27306899999999
+                ],
+                [
+                  -6.224268,
+                  53.27346
+                ],
+                [
+                  -6.224282,
+                  53.27385200000001
+                ],
+                [
+                  -6.224352999999999,
+                  53.274241
+                ],
+                [
+                  -6.224481,
+                  53.274626
+                ],
+                [
+                  -6.224664,
+                  53.275002
+                ],
+                [
+                  -6.224901,
+                  53.275367
+                ],
+                [
+                  -6.22519,
+                  53.275719
+                ],
+                [
+                  -6.22553,
+                  53.276054
+                ],
+                [
+                  -6.225917,
+                  53.27637
+                ],
+                [
+                  -6.226349,
+                  53.27666499999999
+                ],
+                [
+                  -6.226822,
+                  53.276936
+                ],
+                [
+                  -6.227333000000001,
+                  53.277181
+                ],
+                [
+                  -6.227878,
+                  53.27739900000001
+                ],
+                [
+                  -6.228452,
+                  53.27758799999999
+                ],
+                [
+                  -6.319363,
+                  53.23216399999999
+                ],
+                [
+                  -6.320402,
+                  53.232083
+                ],
+                [
+                  -6.321425,
+                  53.23194800000001
+                ],
+                [
+                  -6.322424,
+                  53.23176
+                ],
+                [
+                  -6.323393,
+                  53.231521
+                ],
+                [
+                  -6.324323,
+                  53.231232
+                ],
+                [
+                  -6.325206999999999,
+                  53.230896
+                ],
+                [
+                  -6.326038999999999,
+                  53.230515
+                ],
+                [
+                  -6.326812999999999,
+                  53.230091
+                ],
+                [
+                  -6.327521,
+                  53.22963
+                ],
+                [
+                  -6.32816,
+                  53.22913200000001
+                ],
+                [
+                  -6.328724,
+                  53.228604
+                ],
+                [
+                  -6.329209,
+                  53.228048
+                ],
+                [
+                  -6.329610999999999,
+                  53.227469
+                ],
+                [
+                  -6.329927,
+                  53.226871
+                ],
+                [
+                  -6.330155,
+                  53.226259
+                ],
+                [
+                  -6.330292999999999,
+                  53.22563699999999
+                ],
+                [
+                  -6.330339999999999,
+                  53.22501
+                ],
+                [
+                  -6.330294999999999,
+                  53.224384
+                ],
+                [
+                  -6.330159,
+                  53.223762
+                ],
+                [
+                  -6.329934,
+                  53.22315
+                ],
+                [
+                  -6.329620000000001,
+                  53.222551
+                ],
+                [
+                  -6.32922,
+                  53.221972
+                ],
+                [
+                  -6.328737,
+                  53.22141500000001
+                ],
+                [
+                  -6.328175,
+                  53.220886
+                ],
+                [
+                  -6.327539000000001,
+                  53.220388
+                ],
+                [
+                  -6.326832,
+                  53.219925
+                ],
+                [
+                  -6.326059999999999,
+                  53.219501
+                ],
+                [
+                  -6.32523,
+                  53.219118
+                ],
+                [
+                  -6.324347,
+                  53.218781
+                ],
+                [
+                  -6.323418999999999,
+                  53.218491
+                ],
+                [
+                  -6.322451000000001,
+                  53.21825
+                ],
+                [
+                  -6.321453,
+                  53.218061
+                ],
+                [
+                  -6.320431,
+                  53.217924
+                ],
+                [
+                  -6.319391999999999,
+                  53.217842
+                ],
+                [
+                  -6.318346,
+                  53.217814
+                ],
+                [
+                  -6.317299,
+                  53.21784
+                ],
+                [
+                  -6.316261000000001,
+                  53.217921
+                ],
+                [
+                  -6.315237999999999,
+                  53.218056
+                ],
+                [
+                  -6.314239,
+                  53.218244
+                ],
+                [
+                  -6.313271,
+                  53.218484
+                ],
+                [
+                  -6.312341,
+                  53.218773
+                ],
+                [
+                  -6.311457000000001,
+                  53.219109
+                ],
+                [
+                  -6.310625,
+                  53.21949
+                ],
+                [
+                  -6.309852000000001,
+                  53.219913
+                ],
+                [
+                  -6.309143,
+                  53.220375
+                ],
+                [
+                  -6.308505,
+                  53.220872
+                ],
+                [
+                  -6.307941,
+                  53.22140099999999
+                ],
+                [
+                  -6.307456,
+                  53.221957
+                ],
+                [
+                  -6.307054000000001,
+                  53.222536
+                ],
+                [
+                  -6.306738,
+                  53.223134
+                ],
+                [
+                  -6.30651,
+                  53.223746
+                ],
+                [
+                  -6.306372000000001,
+                  53.22436800000001
+                ],
+                [
+                  -6.306324999999999,
+                  53.224994
+                ],
+                [
+                  -6.306369,
+                  53.225621
+                ],
+                [
+                  -6.306505,
+                  53.226243
+                ],
+                [
+                  -6.30673,
+                  53.226855
+                ],
+                [
+                  -6.307044,
+                  53.227453
+                ],
+                [
+                  -6.307444,
+                  53.228033
+                ],
+                [
+                  -6.307927,
+                  53.22858999999999
+                ],
+                [
+                  -6.308488999999999,
+                  53.229119
+                ],
+                [
+                  -6.309125999999999,
+                  53.229617
+                ],
+                [
+                  -6.309833,
+                  53.23008
+                ],
+                [
+                  -6.310604,
+                  53.230504
+                ],
+                [
+                  -6.311434999999999,
+                  53.230886
+                ],
+                [
+                  -6.312318,
+                  53.231224
+                ],
+                [
+                  -6.313246999999999,
+                  53.231514
+                ],
+                [
+                  -6.314213999999999,
+                  53.23175499999999
+                ],
+                [
+                  -6.315213000000001,
+                  53.231944
+                ],
+                [
+                  -6.316236,
+                  53.23208000000001
+                ],
+                [
+                  -6.317275,
+                  53.232163
+                ],
+                [
+                  -6.318320999999999,
+                  53.232191,
+                  0
+                ],
+                [
+                  -6.531111,
+                  53.432778
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "Donegal Control Zone (CTR) - Green Zone",
+      "country": "IRL",
+      "name": "EI U35",
+      "type": "COMMON",
+      "restriction": "REQ_AUHTORISATION",
+      "restrictionConditions": "90m Excluding EI U69 & EI U70 . Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "90m Excluding EI U69 & EI U70 . Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Donegal ATC",
+          "service": "",
+          "email": "sua@donegalairport.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 90,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -8.631389,
+                  55.036667
+                ],
+                [
+                  -8.629722,
+                  55.02611099999999
+                ],
+                [
+                  -8.627222,
+                  55.015833
+                ],
+                [
+                  -8.623611,
+                  55.005278
+                ],
+                [
+                  -8.618611,
+                  54.995278
+                ],
+                [
+                  -8.6125,
+                  54.98527799999999
+                ],
+                [
+                  -8.605556,
+                  54.975556
+                ],
+                [
+                  -8.5975,
+                  54.96611099999999
+                ],
+                [
+                  -8.588333,
+                  54.95694399999999
+                ],
+                [
+                  -8.578333,
+                  54.948333
+                ],
+                [
+                  -8.567222,
+                  54.939722
+                ],
+                [
+                  -8.555278,
+                  54.931944
+                ],
+                [
+                  -8.5425,
+                  54.924444
+                ],
+                [
+                  -8.528889,
+                  54.917222
+                ],
+                [
+                  -8.514444,
+                  54.91083299999999
+                ],
+                [
+                  -8.499444,
+                  54.904722
+                ],
+                [
+                  -8.483611,
+                  54.899167
+                ],
+                [
+                  -8.4675,
+                  54.89444399999999
+                ],
+                [
+                  -8.450833,
+                  54.89
+                ],
+                [
+                  -8.433611,
+                  54.886389
+                ],
+                [
+                  -8.416111,
+                  54.883333
+                ],
+                [
+                  -8.398333,
+                  54.881111
+                ],
+                [
+                  -8.380278,
+                  54.879167
+                ],
+                [
+                  -8.361944,
+                  54.878056
+                ],
+                [
+                  -8.343611,
+                  54.877778
+                ],
+                [
+                  -8.325556,
+                  54.878056
+                ],
+                [
+                  -8.307222,
+                  54.878889
+                ],
+                [
+                  -8.289167,
+                  54.880556
+                ],
+                [
+                  -8.271111,
+                  54.882778
+                ],
+                [
+                  -8.253611,
+                  54.885556
+                ],
+                [
+                  -8.236389,
+                  54.88888899999999
+                ],
+                [
+                  -8.219444,
+                  54.893056
+                ],
+                [
+                  -8.203056,
+                  54.897778
+                ],
+                [
+                  -8.187222,
+                  54.90305599999999
+                ],
+                [
+                  -8.171944,
+                  54.90888900000001
+                ],
+                [
+                  -8.1575,
+                  54.915278
+                ],
+                [
+                  -8.143611,
+                  54.922222
+                ],
+                [
+                  -8.130556,
+                  54.929722
+                ],
+                [
+                  -8.118333,
+                  54.93750000000001
+                ],
+                [
+                  -8.107222,
+                  54.945833
+                ],
+                [
+                  -8.096667,
+                  54.954444
+                ],
+                [
+                  -8.087222,
+                  54.963611
+                ],
+                [
+                  -8.078889,
+                  54.97277799999999
+                ],
+                [
+                  -8.071389,
+                  54.9825
+                ],
+                [
+                  -8.065278,
+                  54.99249999999999
+                ],
+                [
+                  -8.06,
+                  55.0025
+                ],
+                [
+                  -8.055833,
+                  55.012778
+                ],
+                [
+                  -8.053056,
+                  55.02305599999999
+                ],
+                [
+                  -8.051111,
+                  55.03361099999999
+                ],
+                [
+                  -8.050556,
+                  55.044167
+                ],
+                [
+                  -8.051111,
+                  55.054722
+                ],
+                [
+                  -8.052778,
+                  55.065278
+                ],
+                [
+                  -8.055833,
+                  55.075556
+                ],
+                [
+                  -8.059722,
+                  55.085833
+                ],
+                [
+                  -8.064722,
+                  55.09583299999999
+                ],
+                [
+                  -8.071111,
+                  55.105833
+                ],
+                [
+                  -8.078333,
+                  55.115556
+                ],
+                [
+                  -8.086944,
+                  55.12500000000001
+                ],
+                [
+                  -8.096111,
+                  55.133889
+                ],
+                [
+                  -8.106667,
+                  55.1425
+                ],
+                [
+                  -8.118056,
+                  55.150833
+                ],
+                [
+                  -8.130278,
+                  55.158889
+                ],
+                [
+                  -8.143333,
+                  55.166111
+                ],
+                [
+                  -8.157222,
+                  55.173056
+                ],
+                [
+                  -8.171667,
+                  55.179444
+                ],
+                [
+                  -8.187222,
+                  55.185278
+                ],
+                [
+                  -8.203056,
+                  55.190556
+                ],
+                [
+                  -8.219444,
+                  55.195278
+                ],
+                [
+                  -8.236667,
+                  55.19944399999999
+                ],
+                [
+                  -8.253889,
+                  55.20305599999999
+                ],
+                [
+                  -8.271667,
+                  55.205833
+                ],
+                [
+                  -8.289722,
+                  55.20805599999999
+                ],
+                [
+                  -8.308056,
+                  55.209444
+                ],
+                [
+                  -8.326389,
+                  55.210278
+                ],
+                [
+                  -8.345,
+                  55.210556
+                ],
+                [
+                  -8.363333,
+                  55.21
+                ],
+                [
+                  -8.381667,
+                  55.20888900000001
+                ],
+                [
+                  -8.399722,
+                  55.207222
+                ],
+                [
+                  -8.417778,
+                  55.204722
+                ],
+                [
+                  -8.630556,
+                  55.04
+                ],
+                [
+                  -8.631389,
+                  55.036667
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "Sligo Control Zone (CTR) - Green Zone",
+      "country": "IRL",
+      "name": "EI U36",
+      "type": "COMMON",
+      "restriction": "REQ_AUHTORISATION",
+      "restrictionConditions": "90m excluding EI U87 & EI U88. Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "90m excluding EI U87 & EI U88. Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Sligo ATC",
+          "service": "",
+          "email": "safetymanager@sligoairport.com",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 90,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.59920775,
+              54.28021342
+            ],
+            "radius": "18520"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "Waterford Control Zone (CTR) - Green Zone",
+      "country": "IRL",
+      "name": "EI U65",
+      "type": "COMMON",
+      "restriction": "REQ_AUHTORISATION",
+      "restrictionConditions": "90m excluding EI U89, EI U90, EI U91, EI U92, EI U93, EI U94, EI U95 . Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "90m excluding EI U89, EI U90, EI U91, EI U92, EI U93, EI U94, EI U95 . Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Waterford ATC",
+          "service": "",
+          "email": "sua@waterfordairport.net",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 90,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -7.08696275,
+              52.18719997
+            ],
+            "radius": "18520"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "Cork Control Zone (CTR) - Green Zone",
+      "country": "IRL",
+      "name": "EI U66",
+      "type": "COMMON",
+      "restriction": "REQ_AUHTORISATION",
+      "restrictionConditions": "90m excluding EI U33, EI U45, EI U61, EI U67, EI U68. Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "90m excluding EI U33, EI U45, EI U61, EI U67, EI U68. Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Cork ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 90,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.49111247,
+              51.84126867
+            ],
+            "radius": "27780"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "Connaught Control Zone (CTR) - Green Zone",
+      "country": "IRL",
+      "name": "EI U71",
+      "type": "COMMON",
+      "restriction": "REQ_AUHTORISATION",
+      "restrictionConditions": "90m Excluding EI U32 & EI U63 . Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "90m Excluding EI U32 & EI U63 . Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Ireland West ATC",
+          "service": "",
+          "email": "michaelconnolly@irelandwestairport.com",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMS",
+          "horizontalProjection": {
+            "type": "Circle",
+            "center": [
+              -8.81861111,
+              53.91042778
+            ],
+            "radius": "18520"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "Shannon Control Zone (CTR) - Green Zone",
+      "country": "IRL",
+      "name": "EI U86",
+      "type": "COMMON",
+      "restriction": "REQ_AUHTORISATION",
+      "restrictionConditions": "90m excluding EI U31, EI U64, EI U78, EI U79, EI U80, EI U81, EI U82, EI U83, EI U84, EI U85. Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "region": 0,
+      "reason": [
+        "AIR_TRAFFIC"
+      ],
+      "otherReasonInfo": "Safety",
+      "regulationExemption": "",
+      "uSpaceClass": "",
+      "message": "90m excluding EI U31, EI U64, EI U78, EI U79, EI U80, EI U81, EI U82, EI U83, EI U84, EI U85. Access above the height restrictions may be requested through the zone authority for Specific Category operations.",
+      "applicability": [
+        {
+          "permanent": "YES"
+        }
+      ],
+      "zoneAuthority": [
+        {
+          "name": "Shannon ATC",
+          "service": "",
+          "email": "suaairspace@airnav.ie",
+          "contactName": "",
+          "siteURL": "",
+          "phone": "",
+          "purpose": "",
+          "intervalBefore": ""
+        }
+      ],
+      "geometry": [
+        {
+          "uomDimensions": "M",
+          "lowerLimit": 0,
+          "lowerVerticalReference": "AGL",
+          "upperLimit": 1524,
+          "upperVerticalReference": "AMSL",
+          "horizontalProjection": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -8.526146,
+                  52.788812
+                ],
+                [
+                  -8.548666,
+                  52.82755899999999
+                ],
+                [
+                  -8.57451,
+                  52.850358
+                ],
+                [
+                  -8.591254,
+                  52.862853
+                ],
+                [
+                  -8.605271,
+                  52.87236
+                ],
+                [
+                  -8.628989,
+                  52.88492399999999
+                ],
+                [
+                  -8.623445,
+                  52.883457
+                ],
+                [
+                  -8.649761,
+                  52.897274
+                ],
+                [
+                  -8.674292,
+                  52.909008
+                ],
+                [
+                  -8.704523,
+                  52.91983800000001
+                ],
+                [
+                  -8.731096,
+                  52.929201
+                ],
+                [
+                  -8.758232,
+                  52.936122
+                ],
+                [
+                  -8.78627,
+                  52.94573
+                ],
+                [
+                  -8.829684,
+                  52.954513
+                ],
+                [
+                  -8.876906,
+                  52.958526
+                ],
+                [
+                  -8.920208,
+                  52.961011
+                ],
+                [
+                  -8.962546,
+                  52.9586
+                ],
+                [
+                  -9.005501,
+                  52.956205
+                ],
+                [
+                  -9.048163,
+                  52.949064
+                ],
+                [
+                  -9.080832,
+                  52.94218600000001
+                ],
+                [
+                  -9.115818,
+                  52.931795
+                ],
+                [
+                  -9.147696,
+                  52.919734
+                ],
+                [
+                  -9.175439,
+                  52.908923
+                ],
+                [
+                  -9.207121,
+                  52.89396799999999
+                ],
+                [
+                  -9.223323,
+                  52.88603999999999
+                ],
+                [
+                  -9.240441,
+                  52.87501499999999
+                ],
+                [
+                  -9.256186,
+                  52.864496
+                ],
+                [
+                  -9.275852,
+                  52.846403
+                ],
+                [
+                  -9.293166,
+                  52.83184500000001
+                ],
+                [
+                  -9.305907,
+                  52.813701
+                ],
+                [
+                  -9.32209,
+                  52.795619
+                ],
+                [
+                  -9.334823,
+                  52.76972900000001
+                ],
+                [
+                  -9.340017,
+                  52.752005
+                ],
+                [
+                  -9.345439,
+                  52.73408800000001
+                ],
+                [
+                  -9.347137,
+                  52.70523800000001
+                ],
+                [
+                  -9.345005,
+                  52.683663
+                ],
+                [
+                  -9.337725,
+                  52.653793
+                ],
+                [
+                  -9.319743,
+                  52.61641800000001
+                ],
+                [
+                  -9.299909,
+                  52.588214
+                ],
+                [
+                  -9.280842,
+                  52.56741700000001
+                ],
+                [
+                  -9.254519,
+                  52.54862899999999
+                ],
+                [
+                  -9.229416,
+                  52.529297
+                ],
+                [
+                  -9.191211,
+                  52.509184
+                ],
+                [
+                  -9.156713,
+                  52.493263
+                ],
+                [
+                  -9.125842,
+                  52.483634
+                ],
+                [
+                  -9.095945,
+                  52.475631
+                ],
+                [
+                  -9.055849,
+                  52.466107
+                ],
+                [
+                  -9.021633,
+                  52.460694
+                ],
+                [
+                  -8.991519,
+                  52.456518
+                ],
+                [
+                  -8.953515,
+                  52.454813
+                ],
+                [
+                  -8.916909,
+                  52.455297
+                ],
+                [
+                  -8.872987,
+                  52.45646600000001
+                ],
+                [
+                  -8.838106,
+                  52.45909200000001
+                ],
+                [
+                  -8.83418,
+                  52.459645
+                ],
+                [
+                  -8.794156,
+                  52.46692400000001
+                ],
+                [
+                  -8.760435,
+                  52.47411
+                ],
+                [
+                  -8.718863,
+                  52.486605
+                ],
+                [
+                  -8.680571,
+                  52.501746
+                ],
+                [
+                  -8.680381,
+                  52.607759
+                ],
+                [
+                  -8.681508,
+                  52.628949
+                ],
+                [
+                  -8.681639,
+                  52.64153699999999
+                ],
+                [
+                  -8.690575,
+                  52.64144899999999
+                ],
+                [
+                  -8.698099,
+                  52.642035
+                ],
+                [
+                  -8.707394,
+                  52.645536
+                ],
+                [
+                  -8.712316,
+                  52.64879
+                ],
+                [
+                  -8.717947,
+                  52.65250899999999
+                ],
+                [
+                  -8.720814,
+                  52.65765999999999
+                ],
+                [
+                  -8.723149,
+                  52.66199199999999
+                ],
+                [
+                  -8.723076,
+                  52.666929
+                ],
+                [
+                  -8.722252,
+                  52.671015
+                ],
+                [
+                  -8.720947,
+                  52.674535
+                ],
+                [
+                  -8.717648,
+                  52.678749
+                ],
+                [
+                  -8.712553,
+                  52.68238399999999
+                ],
+                [
+                  -8.707545,
+                  52.685169
+                ],
+                [
+                  -8.702195,
+                  52.687883
+                ],
+                [
+                  -8.698116,
+                  52.68911
+                ],
+                [
+                  -8.692859,
+                  52.689982
+                ],
+                [
+                  -8.684959,
+                  52.690761
+                ],
+                [
+                  -8.679675,
+                  52.690839
+                ],
+                [
+                  -8.674096,
+                  52.690827
+                ],
+                [
+                  -8.665901,
+                  52.688954
+                ],
+                [
+                  -8.656308,
+                  52.685768
+                ],
+                [
+                  -8.651105,
+                  52.683831
+                ],
+                [
+                  -8.520493,
+                  52.763431
+                ],
+                [
+                  -8.526146,
+                  52.788812
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -159,13 +159,15 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <script src='https://unpkg.com/leaflet-image@0.4.0/leaflet-image.js'></script>
-<script src="https://unpkg.com/pdf-lib@1.4.0"></script>
+<script src="https://unpkg.com/pdf-lib"></script>
 <script src="https://unpkg.com/downloadjs@1.4.7"></script>
 
 
 <script>
   // the dom element for the latlng
   let $latLng;
+  // the dom element for the controlled airspace location
+  let $controlledAirspaceLocation;
 
   // the area of operations variables
   let radius = 30;
@@ -197,7 +199,18 @@
     }
   }
 
+  function featureHandler(feature, layer)
+  {
+    L.DomEvent.on(layer, 'click', function(evt){
+      $controlledAirspaceLocation.value = feature.properties.name;
+    });
+  }
+
+
+
   let control = {
+
+
     onAdd:function(map)
     {
       let containerDiv = L.DomUtil.create('div');
@@ -243,6 +256,7 @@
   window.addEventListener('load', ()=>{
     $latLng = document.getElementById('latitudeLongitude');
     $radius = document.getElementById('radiusofOperation');
+    $controlledAirspaceLocation = document.getElementById('controlledAirspaceLocation');
 
     const form = document.forms.namedItem('uf101Form');
     form.addEventListener(
@@ -264,15 +278,17 @@
     // geolocation event handler
       let mapOptions = {
         center: [53.4495, -7.5030],
-        zoom: 7,
-        preferCanvas:true
+        zoom: 7
       }
       // Creating a map object
       map = new L.map('map', mapOptions);
       // Creating a Layer object
-      let layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+      let layer = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
       // Adding layer to the map
-      map.addLayer(layer);
+      map.addLayer(
+              layer,
+              {renderer:L.canvas()}
+      );
 
       L.control.modeselector = function(opts){
         return new L.Control.modeSelector(opts);
@@ -282,8 +298,34 @@
 
       map.on('click', function(evt){handleMouseClick(evt)});
 
+    fetch(
+      "Irish UGZ.geo.json"
+    ).then(async (response)=>{
+      let json = await response.json();
+      return Promise.resolve(json);
+    }).then((json)=>{
+      let featuresLayer = L.geoJSON(
+        json,
+        {
+          style:function(feature){
+            let style = {
+              stroke:feature.properties.stroke,
+              color:feature.properties.fill,
+              opacity:feature.properties['fill-opacity']
+            };
+            return style;
+          },
+          onEachFeature:featureHandler
+        }
+      ).addTo(map);
+      featuresLayer.addData(json);
+    }).catch((error)=>{
+      console.log(error);
+    });
 
-      // add the event handler for changing the radius
+
+
+    // add the event handler for changing the radius
       $radius.addEventListener('change', function(){
         radius = parseInt($radius.value);
         if(aoOCenter)
@@ -316,7 +358,7 @@
     {
       map.removeLayer(operatorLayer);
     }
-    operatorLayer = L.marker(operatorCenter).addTo(map);
+    operatorLayer = L.marker(operatorCenter,{renderer:L.canvas()}).addTo(map);
   }
 
   function updateAoOMarker()
@@ -325,7 +367,7 @@
     {
       map.removeLayer(circleLayer);
     }
-    circleLayer = L.circle(aoOCenter, {radius: parseInt($radius.value)}).addTo(map);
+    circleLayer = L.circle(aoOCenter, {radius: parseInt($radius.value), renderer:L.canvas()}).addTo(map);
     $latLng.value=`${convertToDMS(aoOCenter.lat)}, ${convertToDMS(aoOCenter.lng)}`;
   }
 
