@@ -301,10 +301,7 @@
       // Creating a Layer object
       let layer = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
       // Adding layer to the map
-      map.addLayer(
-              layer,
-              {renderer:L.canvas()}
-      );
+      map.addLayer(layer);
 
       L.control.modeselector = function(opts){
         return new L.Control.modeSelector(opts);
@@ -374,7 +371,12 @@
     {
       map.removeLayer(operatorLayer);
     }
-    operatorLayer = L.marker(operatorCenter,{renderer:L.canvas()}).addTo(map);
+    operatorLayer = L.marker(
+            operatorCenter,
+            {
+              renderer:L.canvas()
+            }
+          ).addTo(map);
   }
 
   function updateAoOMarker()
@@ -383,7 +385,13 @@
     {
       map.removeLayer(circleLayer);
     }
-    circleLayer = L.circle(aoOCenter, {radius: parseInt($radius.value), renderer:L.canvas()}).addTo(map);
+    circleLayer = L.circle(
+            aoOCenter,
+            {
+              renderer:L.canvas(),
+              radius: parseInt($radius.value)
+            }
+          ).addTo(map);
     $latLng.value=`${convertToDMS(aoOCenter.lat)}, ${convertToDMS(aoOCenter.lng)}`;
   }
 
