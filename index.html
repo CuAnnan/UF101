@@ -201,32 +201,14 @@
   };
   let mapMode = MAP_MODES.OPERATION_ZONE;
 
-
-  function updateActive(node)
-  {
-    let active = document.querySelector('.controlContainer.active');
-    if(active) {
-      active.classList.remove('active');
-      active.classList.add('inactive');
-    }
-    if(node) {
-      node.classList.remove('inactive');
-      node.classList.add('active');
-    }
-  }
-
-  function featureHandler(feature, layer)
-  {
-    L.DomEvent.on(layer, 'click', function(evt){
-      $controlledAirspaceLocation.value = feature.properties.name;
-    });
-  }
+  // 53° 29' 40''
+  let dmsPattern = /\-?\d{1,3}° \d{1,2}' \d{1,2}''/;
+  // 53.64463782485651
+  let decPattern = /\-?\d{1,3}\.?\d+/;
 
 
-
+  // mode selection control definition
   let control = {
-
-
     onAdd:function(map)
     {
       let containerDiv = L.DomUtil.create('div');
@@ -260,19 +242,91 @@
       let operatorMarker = L.DomUtil.create('img', 'controlImage', operatorContainer);
       operatorMarker.src='https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png';
       operatorMarker.title="Set mode to operator";
-
-
       return containerDiv;
     }
   };
-
   L.Control.modeSelector = L.Control.extend(control);
+
+
+  function updateActive(node)
+  {
+    let active = document.querySelector('.controlContainer.active');
+    if(active) {
+      active.classList.remove('active');
+      active.classList.add('inactive');
+    }
+    if(node) {
+      node.classList.remove('inactive');
+      node.classList.add('active');
+    }
+  }
+
+  function featureHandler(feature, layer)
+  {
+    L.DomEvent.on(layer, 'click', function(evt){
+      $controlledAirspaceLocation.value = feature.properties.name;
+    });
+  }
+
+
+
+
 
   // page loader
   window.addEventListener('load', ()=>{
     $latLng = document.getElementById('latitudeLongitude');
     $radius = document.getElementById('radiusofOperation');
     $controlledAirspaceLocation = document.getElementById('controlledAirspaceLocation');
+
+    $latLng.addEventListener('change', (evt)=>{
+      let latLngVal = $latLng.value;
+      let center;
+      if(latLngVal.indexOf(',')>=0)
+      {
+        let [part1, part2] = latLngVal.split(',');
+        let lat = part1.match(dmsPattern);
+        let lng = part2.match(dmsPattern);
+        if(lat && lng)
+        {
+          // have latlng in required format so need to covert it to decimal for the aoOCenter
+          lat = lat[0].trim();
+          lng = lng[0].trim();
+
+          if(!aoOCenter)
+          {
+            center = {
+              lat:convertFromDMS(lat),
+              lng:convertFromDMS(lng)
+            };
+          }
+
+        }
+        else
+        {
+          // sample useful value
+          // 53.64463782485651, -7.207031250000001
+          lat = part1.match(decPattern);
+          lng = part2.match(decPattern);
+          if (lat && lng) {
+            lat = parseFloat(lat[0].trim());
+            lng = lng[0].trim();
+            let rem = part2.replace(lng, '').trim();
+            lng = parseFloat(lng);
+            center = {lat:lat,lng:lng};
+            $latLng.value = `${convertToDMS(lat)}, ${convertToDMS(lng)} ${rem}`;
+          } else {
+            console.log("Something went wrong");
+            console.log(lat, lng);
+          }
+        }
+      }
+
+      if(center)
+      {
+        aoOCenter = center;
+        updateAoOMarker();
+      }
+    });
 
     const form = document.forms.namedItem('uf101Form');
     form.addEventListener(
@@ -385,6 +439,7 @@
     {
       map.removeLayer(circleLayer);
     }
+
     circleLayer = L.circle(
             aoOCenter,
             {
@@ -404,6 +459,18 @@
     let secsDec = minsDec - mins;
     let secs = Math.round(secsDec * 60);
     return `${deg}° ${mins}' ${secs}''`;
+  }
+
+  function convertFromDMS(dms)
+  {
+    //53° 29' 40''
+    let [d, m, s] = dms.split(' ');
+    let deg = parseInt(d.substring(0, d.length - 1));
+    let min = parseInt(m.substring(0, m.length - 1));
+    let sec = parseInt(s.substring(0, s.length - 2));
+
+    let dec = deg + min / 60 + sec / 3600;
+    return dec;
   }
 
   // pdf stuff
